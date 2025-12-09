@@ -41,9 +41,6 @@ def search_web(query: str) -> str:
     """
 
     api_key = get_api_key()
-    if not api_key:
-        raise RuntimeError("IFLOW_KEY not set in environment/.env")
-
     url = "https://apis.iflow.cn/v1/chat/retrieve"
 
     headers = {
