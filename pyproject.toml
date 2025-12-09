@@ -10,4 +10,4 @@ dependencies = [
 ]
 
 [project.scripts]
-iflow-search = "main" 
+iflow-search = "main:main" 

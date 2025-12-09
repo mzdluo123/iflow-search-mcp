@@ -103,5 +103,8 @@ def iflow_search(query:str)->str:
     return format_search_result(result)
 
 
-if __name__ == "__main__":
+def main():
     mcp.run()
+
+if __name__ == "__main__":
+    main()
